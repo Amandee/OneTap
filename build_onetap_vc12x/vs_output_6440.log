@@ -1,0 +1,17 @@
+1>------ Build started: Project: OneTap_vc12x, Configuration: x86 Debug Win32 ------
+1>  Performing Custom Build Tools
+1>  msg: option 'default-buildenv' overridden by command line
+1>  C:\Marmalade\7.3\s3e\makefile_builder\mkb.py c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb --buildenv=VC12X --default-buildenv=vc12x --msvc-project
+1>  Building project: c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb
+1>  done
+1>  OneTap.cpp
+1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+1>OneTap.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+1>LIBCMTD.lib(strtoq.obj) : warning LNK4006: _strtof already defined in s3e_d.lib(iwcrt_common.obj); second definition ignored
+1>     Creating library Debug_OneTap_vc12x_x86\OneTap.lib and object Debug_OneTap_vc12x_x86\OneTap.exp
+1>Debug_OneTap_vc12x_x86\OneTap.s86 : warning LNK4088: image being generated due to /FORCE option; image may not run
+1>  OneTap_vc12x.vcxproj -> c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86
+1>  C:\Marmalade\7.3\s3e\python\python.exe .\process_map.py "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86"
+1>  "s3e_plink" -l "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86" 
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

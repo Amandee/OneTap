@@ -1,0 +1,2 @@
+^C:\USERS\RANDY\DOCUMENTS\MARMALADEGAMES\ONETAP\ONETAP.MKB
+"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project
