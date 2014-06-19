@@ -11,6 +11,8 @@
     </Filter>
     <Filter Include="'Marmalade Studio'\iwutil">
     </Filter>
+    <Filter Include="source">
+    </Filter>
     <Filter Include="'Marmalade System (S3E)'">
     </Filter>
     <Filter Include="(libjpeg)\h">
@@ -22,6 +24,8 @@
     <Filter Include="'Marmalade System (S3E)'\stdc headers">
     </Filter>
     <Filter Include="(libpng)">
+    </Filter>
+    <Filter Include="sourceMenu">
     </Filter>
     <Filter Include="(libpng)\h">
     </Filter>
@@ -388,6 +392,9 @@
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.3/modules/iwutil/h/IwVariableBitField.h">
       <Filter>'Marmalade Studio'\iwutil</Filter>
+    </ClInclude>
+    <ClInclude Include="c:/Users/Randy/Documents/MarmaladeGames/OneTap/Source/MainMenu.h">
+      <Filter>sourceMenu</Filter>
     </ClInclude>
     <ClInclude Include="c:/marmalade/7.3/s3e/h/MarmaladeVersion.h">
       <Filter>'Marmalade System (S3E)'</Filter>
@@ -907,8 +914,11 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\OneTap.cpp">
-      <Filter></Filter>
+    <ClCompile Include="..\Source\MainMenu.cpp">
+      <Filter>sourceMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Source\OneTap.cpp">
+      <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

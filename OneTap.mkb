@@ -1,7 +1,17 @@
 #!/usr/bin/env mkb
 files
 {
+	#Actual folders
+	(Source)
+
+	#Filters used by the Solution Explorer
+	[source]	
     OneTap.cpp
+
+	#Filter sourceMenu
+	[sourceMenu]
+	MainMenu.cpp
+	MainMenu.h
 }
 
 subprojects

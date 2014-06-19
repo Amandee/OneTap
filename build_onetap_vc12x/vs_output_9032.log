@@ -1,0 +1,6 @@
+1>------ Build started: Project: OneTap_vc12x, Configuration: x86 Debug Win32 ------
+1>  OneTap_vc12x.vcxproj -> c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86
+1>  C:\Marmalade\7.3\s3e\python\python.exe .\process_map.py "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86"
+1>  "s3e_plink" -l "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86" 
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
+

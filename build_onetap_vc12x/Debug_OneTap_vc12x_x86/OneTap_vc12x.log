@@ -1,35 +1,12 @@
-﻿Build started 6/17/2014 6:44:22 PM.
+﻿Build started 6/19/2014 4:52:34 AM.
      1>Project "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x.vcxproj" on node 2 (Build target(s)).
-     1>CustomBuild:
-         Performing Custom Build Tools
-         msg: option 'default-buildenv' overridden by command line
-         C:\Marmalade\7.3\s3e\makefile_builder\mkb.py c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb --buildenv=VC12X --default-buildenv=vc12x --msvc-project
-         Building project: c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb
-         done
-       ClCompile:
-         C:\Marmalade\7.3\s3e\bin\CL.exe /c /Ic:/marmalade/7.3/modules/iwutil/h /Ic:/marmalade/7.3/modules/third_party/libjpeg/h /Ic:/marmalade/7.3/modules/third_party/zlib/h /Ic:/marmalade/7.3/modules/third_party/libpng/h /Ic:/marmalade/7.3/s3e/h /Ic:/marmalade/7.3/s3e/h/ext /Ic:/marmalade/7.3/s3e/h/std /Ic:/marmalade/7.3/s3e/h/std/c++ /Ic:/marmalade/7.3/s3e/h/ext_legacy /Ic:/marmalade/7.3/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_OneTap_vc12x_x86\\" /Fd"Debug_OneTap_vc12x_x86\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /FI"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\temp_defines_debug.h" ..\OneTap.cpp
-         OneTap.cpp
-       Link:
-         C:\Marmalade\7.3\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_OneTap_vc12x_x86\OneTap.s86" /INCREMENTAL /NOLOGO /LIBPATH:c:/marmalade/7.3/modules/iwutil/lib/x86 /LIBPATH:c:/marmalade/7.3/modules/third_party/libjpeg/lib/x86 /LIBPATH:c:/marmalade/7.3/modules/third_party/zlib/lib/x86 /LIBPATH:c:/marmalade/7.3/modules/third_party/libpng/lib/x86 /LIBPATH:c:/marmalade/7.3/s3e/lib/x86 vc6_compat.lib iwutil_d.lib jpeg_d.lib z_d.lib png_d.lib s3e_cpp_d.lib s3e_d.lib s3e_api.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:"Debug_OneTap_vc12x_x86\OneTap.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_OneTap_vc12x_x86\OneTap.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12 /force:multiple /DLL Debug_OneTap_vc12x_x86\OneTap.obj
-     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
-     1>OneTap.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
-     1>LIBCMTD.lib(strtoq.obj) : warning LNK4006: _strtof already defined in s3e_d.lib(iwcrt_common.obj); second definition ignored
-            Creating library Debug_OneTap_vc12x_x86\OneTap.lib and object Debug_OneTap_vc12x_x86\OneTap.exp
-     1>Debug_OneTap_vc12x_x86\OneTap.s86 : warning LNK4088: image being generated due to /FORCE option; image may not run
-         OneTap_vc12x.vcxproj -> c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86
-       PostBuildEvent:
-         echo C:\Marmalade\7.3\s3e\python\python.exe .\process_map.py "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86"
-         chdir /d "c:\marmalade\7.3\s3e\tools"
-         C:\Marmalade\7.3\s3e\python\python.exe .\process_map.py "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86"
-         echo "s3e_plink" -l "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86" 
-         chdir /d "c:\marmalade\7.3\s3e\bin"
-         "s3e_plink" -l "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86" 
-         
-         :VCEnd
-         C:\Marmalade\7.3\s3e\python\python.exe .\process_map.py "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86"
-         "s3e_plink" -l "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_x86\OneTap.s86" 
-     1>Done Building Project "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x.vcxproj" (Build target(s)).
+     1>ClCompile:
+         C:\Marmalade\7.3\s3e\bin\CL.exe /c /Ic:/marmalade/7.3/modules/iwutil/h /Ic:/marmalade/7.3/modules/third_party/libjpeg/h /Ic:/marmalade/7.3/modules/third_party/zlib/h /Ic:/marmalade/7.3/modules/third_party/libpng/h /Ic:/marmalade/7.3/s3e/h /Ic:/marmalade/7.3/s3e/h/ext /Ic:/marmalade/7.3/s3e/h/std /Ic:/marmalade/7.3/s3e/h/std/c++ /Ic:/marmalade/7.3/s3e/h/ext_legacy /Ic:/marmalade/7.3/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_OneTap_vc12x_x86\\" /Fd"Debug_OneTap_vc12x_x86\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /FI"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\temp_defines_debug.h" ..\Source\MainMenu.cpp
+         MainMenu.cpp
+     1>c:\users\randy\documents\marmaladegames\onetap\source\mainmenu.h(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>c:\users\randy\documents\marmaladegames\onetap\source\mainmenu.h(2): error C2008: '.' : unexpected in macro definition
+     1>Done Building Project "c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:14.79
+Time Elapsed 00:00:01.22

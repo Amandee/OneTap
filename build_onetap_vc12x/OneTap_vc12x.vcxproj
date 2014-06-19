@@ -802,40 +802,40 @@
     <None Include="c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf" />
     <CustomBuild Include="..\OneTap.mkb">
       <FileType>Document</FileType>
-      <Command Condition="'$(Configuration)|$(Platform)'=='x86 Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='x86 Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='x86 Debug|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='x86 Debug|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='x86 Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='x86 Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='x86 Release|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='x86 Release|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='GCC X86 ANDROID Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='GCC X86 ANDROID Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GCC X86 ANDROID Debug|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='GCC X86 ANDROID Debug|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='GCC X86 ANDROID Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='GCC X86 ANDROID Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GCC X86 ANDROID Release|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='GCC X86 ANDROID Release|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='GCC X86 Tizen Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='GCC X86 Tizen Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GCC X86 Tizen Debug|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='GCC X86 Tizen Debug|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='GCC X86 Tizen Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='GCC X86 Tizen Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GCC X86 Tizen Release|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='GCC X86 Tizen Release|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RVCT ARM Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RVCT ARM Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RVCT ARM Debug|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RVCT ARM Debug|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RVCT ARM Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RVCT ARM Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RVCT ARM Release|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RVCT ARM Release|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='GCC ARM Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='GCC ARM Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GCC ARM Debug|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='GCC ARM Debug|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='GCC ARM Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='GCC ARM Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GCC ARM Release|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='GCC ARM Release|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='GCC MIPS Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='GCC MIPS Debug|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GCC MIPS Debug|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='GCC MIPS Debug|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
-      <Command Condition="'$(Configuration)|$(Platform)'=='GCC MIPS Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--fake-vc-call" "--default-buildenv=vc12x" --msvc-project</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='GCC MIPS Release|Win32'">"C:\Marmalade\7.3\s3e\python\python.exe" "C:\Marmalade\7.3\s3e\makefile_builder\mkb.py" "c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb" "--buildenv=VC12X" "--default-buildenv=vc12x" --msvc-project</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='GCC MIPS Release|Win32'">OneTap_vc12x.stamp</Outputs>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='GCC MIPS Release|Win32'">c:/marmalade/7.3/modules/third_party/libjpeg/libjpeg.mkf;c:/marmalade/7.3/modules/iwutil/iwutil.mkf;c:/marmalade/7.3/s3e/s3e.mkf;c:/marmalade/7.3/modules/third_party/zlib/zlib.mkf;c:/marmalade/7.3/modules/third_party/libpng/libpng.mkf</AdditionalInputs>
     </CustomBuild>
@@ -890,6 +890,7 @@
     <ClInclude Include="c:/marmalade/7.3/modules/iwutil/h/IwUtil.h" />
     <ClInclude Include="c:/marmalade/7.3/modules/iwutil/h/IwUtilInitTerm.h" />
     <ClInclude Include="c:/marmalade/7.3/modules/iwutil/h/IwVariableBitField.h" />
+    <ClInclude Include="c:/Users/Randy/Documents/MarmaladeGames/OneTap/Source/MainMenu.h" />
     <ClInclude Include="c:/marmalade/7.3/s3e/h/MarmaladeVersion.h" />
     <ClInclude Include="c:/marmalade/7.3/s3e/h/std/alloca.h" />
     <ClInclude Include="c:/marmalade/7.3/s3e/h/std/assert.h" />
@@ -1064,7 +1065,8 @@
     <ClInclude Include="c:/marmalade/7.3/modules/third_party/zlib/h/zlib.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\OneTap.cpp" />
+    <ClCompile Include="..\Source\MainMenu.cpp" />
+    <ClCompile Include="..\Source\OneTap.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

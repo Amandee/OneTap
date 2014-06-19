@@ -1,0 +1,32 @@
+﻿Build started 6/19/2014 4:51:57 AM.
+     1>Project "C:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Marmalade\7.3\s3e\bin\CL.exe /c /Ic:/marmalade/7.3/modules/iwutil/h /Ic:/marmalade/7.3/modules/third_party/libjpeg/h /Ic:/marmalade/7.3/modules/third_party/zlib/h /Ic:/marmalade/7.3/modules/third_party/libpng/h /Ic:/marmalade/7.3/s3e/h /Ic:/marmalade/7.3/s3e/h/ext /Ic:/marmalade/7.3/s3e/h/std /Ic:/marmalade/7.3/s3e/h/std/c++ /Ic:/marmalade/7.3/s3e/h/ext_legacy /Ic:/marmalade/7.3/s3e/h/legacy /I. /Z7 /nologo /W3 /WX- /MP /Od /Oy- /X /Gm- /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_OneTap_vc12x_gcc_arm\\" /Fd"Debug_OneTap_vc12x_gcc_arm\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /S3Eproject /J /Fe"s3e-custom-tool='c:/marmalade/7.3/s3e/gcc/win32/bin/arm-none-eabi-gcc.exe' tooltype=gcc_compiler -funsigned-char -fno-strict-aliasing -fno-stack-protector -fno-short-enums -fshort-wchar -Wall -fomit-frame-pointer -fmessage-length=0 -Wno-unused -Wno-parentheses -save-temps -ffunction-sections -mstructure-size-boundary=8 -march=armv6 -mfloat-abi=soft -mthumb-interwork -mword-relocations -Wno-switch -Wno-psabi -fvisibility=hidden -nostdinc -fPIC --cppflag=-Wno-reorder --cppflag=-fvisibility-inlines-hidden --cppflag=-fno-exceptions --cppflag=-nostdinc++ -g -O0 -gdwarf-2" /FD  /FI"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\temp_defines_debug.h" ..\Source\MainMenu.cpp ..\Source\OneTap.cpp
+         ARM Compiling(GCC) C:\Users\Randy\Documents\MarmaladeGames\OneTap\Source\MainMenu.cpp ...
+         C:/Users/Randy/Documents/MarmaladeGames/OneTap/Source/MainMenu.cpp(1) [In file included from]
+     1>C:/Users/Randy/Documents/MarmaladeGames/OneTap/Source/MainMenu.h(1): warning : extra tokens at end of #ifndef directive [enabled by default] (col 19)
+         
+         #ifndef __MainMenu.h_
+         ^
+     1>C:/Users/Randy/Documents/MarmaladeGames/OneTap/Source/MainMenu.h(2): warning : missing whitespace after the macro name [enabled by default] (col 19)
+         
+         #define __MainMenu.h_
+         ^
+         ARM Compiling(GCC) C:\Users\Randy\Documents\MarmaladeGames\OneTap\Source\OneTap.cpp ...
+       Link:
+         C:\Marmalade\7.3\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_OneTap_vc12x_gcc_arm\OneTap.s3e" /INCREMENTAL /NOLOGO /LIBPATH:c:/marmalade/7.3/modules/iwutil/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.3/modules/third_party/libjpeg/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.3/modules/third_party/zlib/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.3/modules/third_party/libpng/lib/arm/v6/nofpu/soft /LIBPATH:c:/marmalade/7.3/s3e/lib/arm/v6/nofpu/soft /NODEFAULTLIB:libcmt /MANIFEST:NO /PDB:"Debug_OneTap_vc12x_gcc_arm\OneTap.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_OneTap_vc12x_gcc_arm\OneTap.lib" /MACHINE:X86  /include:_IwMain /include:_raise /include:_DllEntryPoint@12 /force:multiple /COMMENT:"s3e-custom-tool='c:/marmalade/7.3/s3e/gcc/win32/bin/arm-none-eabi-g++.exe' tooltype=gcc_linker -Wl,--gc-sections -Wl,--as-needed -march=armv6 -mfloat-abi=soft -mthumb-interwork -pie -Wl,--entry=_IwMain -Wl,--no-enum-size-warning -Wl,-Tlinker_script -lc -lm -Wl,-Map='Debug_OneTap_vc12x_gcc_arm\/OneTap.map' -Wl,--start-group -liwutil_d -ljpeg_d -lz_d -lpng_d -ls3e_cpp_d -ls3e_d -ls3e_api -Wl,--end-group --plink:--arch=armv6 --plink:--compiler=rvct --plink:-u" /DLL Debug_OneTap_vc12x_gcc_arm\MainMenu.obj
+         Debug_OneTap_vc12x_gcc_arm\OneTap.obj
+         ARM Linking(GCC) ...
+         OneTap_vc12x.vcxproj -> C:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_gcc_arm\OneTap.s3e
+       PostBuildEvent:
+         echo C:\Marmalade\7.3\s3e\python\python.exe .\process_map.py "C:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_gcc_arm\OneTap.s3e"
+         chdir /d "c:\marmalade\7.3\s3e\tools"
+         C:\Marmalade\7.3\s3e\python\python.exe .\process_map.py "C:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_gcc_arm\OneTap.s3e"
+         
+         :VCEnd
+         C:\Marmalade\7.3\s3e\python\python.exe .\process_map.py "C:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_vc12x_gcc_arm\OneTap.s3e"
+     1>Done Building Project "C:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.76

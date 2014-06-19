@@ -4,7 +4,7 @@
 # tool during the build process.
 
 config = {}
-cmdline = ['C:/Marmalade/7.3/s3e/makefile_builder/mkb.py', 'c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb', '--buildenv=VC12X', '--fake-vc-call', '--deploy-only']
+cmdline = ['C:/Marmalade/7.3/s3e/makefile_builder/mkb.py', 'c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb', '--buildenv=VC12X', '--debug', '--x86', '--no-ide', '--make', '--deploy-only']
 mkb = 'c:/Users/Randy/Documents/MarmaladeGames/OneTap/OneTap.mkb'
 mkf = ['c:\\marmalade\\7.3\\modules\\iwutil\\iwutil.mkf', 'c:\\marmalade\\7.3\\modules\\third_party\\libjpeg\\libjpeg.mkf', 'c:\\marmalade\\7.3\\modules\\third_party\\libpng\\libpng.mkf', 'c:\\marmalade\\7.3\\modules\\third_party\\zlib\\zlib.mkf']
 

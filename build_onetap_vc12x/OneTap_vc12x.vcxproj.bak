@@ -890,6 +890,7 @@
     <ClInclude Include="c:/marmalade/7.3/modules/iwutil/h/IwUtil.h" />
     <ClInclude Include="c:/marmalade/7.3/modules/iwutil/h/IwUtilInitTerm.h" />
     <ClInclude Include="c:/marmalade/7.3/modules/iwutil/h/IwVariableBitField.h" />
+    <ClInclude Include="c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/MainMenu.h" />
     <ClInclude Include="c:/marmalade/7.3/s3e/h/MarmaladeVersion.h" />
     <ClInclude Include="c:/marmalade/7.3/s3e/h/std/alloca.h" />
     <ClInclude Include="c:/marmalade/7.3/s3e/h/std/assert.h" />
@@ -1064,7 +1065,8 @@
     <ClInclude Include="c:/marmalade/7.3/modules/third_party/zlib/h/zlib.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\OneTap.cpp" />
+    <ClCompile Include="..\data\MainMenu.cpp" />
+    <ClCompile Include="..\Source\OneTap.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -11,599 +11,334 @@ System Info:
  Unique ID    : SIMULATOR_ID
  Device Name  : My Computer
  Memory       : 1048576KiB
-17/06/14 18:44:56.270: [0x11b0] DEVICE: Initialising FIBRE
-17/06/14 18:44:56.273: [0x11b0] DEVICE: Initialising THREAD
-17/06/14 18:44:56.275: [0x11b0] THREAD: s3eThreadCreateMain
-17/06/14 18:44:56.277: [0xfa0] DEVICE: Initialising SURFACE
-17/06/14 18:44:56.280: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
-17/06/14 18:44:56.281: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-17/06/14 18:44:56.284: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-17/06/14 18:44:56.285: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
-17/06/14 18:44:56.289: [0xfa0] DEVICE: Initialising EXT
-17/06/14 18:44:56.292: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
-17/06/14 18:44:56.294: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
-17/06/14 18:44:56.296: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
-17/06/14 18:44:56.297: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
-17/06/14 18:44:56.299: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
-17/06/14 18:44:56.300: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
-17/06/14 18:44:56.301: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
-17/06/14 18:44:56.303: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
-17/06/14 18:44:56.304: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
-17/06/14 18:44:56.305: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
-17/06/14 18:44:56.306: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
-17/06/14 18:44:56.308: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
-17/06/14 18:44:56.310: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
-17/06/14 18:44:56.312: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
-17/06/14 18:44:56.314: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
-17/06/14 18:44:56.315: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
-17/06/14 18:44:56.316: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
-17/06/14 18:44:56.317: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
-17/06/14 18:44:56.319: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
-17/06/14 18:44:56.320: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
-17/06/14 18:44:56.321: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
-17/06/14 18:44:56.323: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
-17/06/14 18:44:56.324: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
-17/06/14 18:44:56.325: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
-17/06/14 18:44:56.327: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
-17/06/14 18:44:56.329: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
-17/06/14 18:44:56.330: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
-17/06/14 18:44:56.332: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
-17/06/14 18:44:56.338: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
-17/06/14 18:44:56.341: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
-17/06/14 18:44:56.347: [0xfa0] EXT: registering extension: Location [0x7604d91e]
-17/06/14 18:44:56.350: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
-17/06/14 18:44:56.352: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
-17/06/14 18:44:56.354: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
-17/06/14 18:44:56.355: [0xfa0] DEVICE: Initialising CONFIG
-17/06/14 18:44:56.356: [0xfa0] DEVICE: Initialising TIMER
-17/06/14 18:44:56.358: [0xfa0] DEVICE: Initialising COMPRESSION
-17/06/14 18:44:56.361: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
-17/06/14 18:44:56.364: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
-17/06/14 18:44:56.365: [0xfa0] EXT: initializing extension: s3eWindow
-17/06/14 18:44:56.366: [0xfa0] EXT: initializing extension: s3eWindow 0x012bc620
-17/06/14 18:44:56.368: [0xfa0] DEVICE: SetupPaths: NULL
-17/06/14 18:44:56.370: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via"]
-17/06/14 18:44:56.371: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:44:56.372: [0xfa0] LOADER: parsing via file: c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:44:56.374: [0xfa0] FILE: s3eFileOpen('c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via', 'r') succeeded, id=20415984 p=0x013785f0
-17/06/14 18:44:56.375: [0xfa0] LOADER: reading 556 bytes from via files
-17/06/14 18:44:56.377: [0xfa0] FILE: s3eFileClose h=0x013785f0
-17/06/14 18:44:56.379: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via" --dll="c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\O
-17/06/14 18:44:56.380: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:44:56.382: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
-17/06/14 18:44:56.383: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Randy\Documents\MarmaladeGames\OneTap\data
-17/06/14 18:44:56.384: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-17/06/14 18:44:56.386: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
-17/06/14 18:44:56.387: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.config.txt
-17/06/14 18:44:56.388: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/7.3/modules/iwutil/docs/iwutil.config.txt
-17/06/14 18:44:56.390: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/7.3/s3e/s3e.config.txt
-17/06/14 18:44:56.392: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/7.3/s3e\s3e.config.txt
-17/06/14 18:44:56.395: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/7.3/s3e
-17/06/14 18:44:56.397: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-17/06/14 18:44:56.398: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data'
-17/06/14 18:44:56.400: [0xfa0] FILE: fs[03]: system[raw://] ''
-17/06/14 18:44:56.401: [0xfa0] FILE: listed 2 active filesystems
-17/06/14 18:44:56.402: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-17/06/14 18:44:56.404: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data'
-17/06/14 18:44:56.405: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data-ram'
-17/06/14 18:44:56.406: [0xfa0] FILE: fs[03]: system[raw://] ''
-17/06/14 18:44:56.407: [0xfa0] FILE: listed 3 active filesystems
-17/06/14 18:44:56.495: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-17/06/14 18:44:56.496: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-17/06/14 18:44:56.499: [0xfa0] LOADER: Using data directory c:\Users\Randy\Documents\MarmaladeGames\OneTap\data as ROM drive
-17/06/14 18:44:56.500: [0xfa0] LOADER: Using directory c:\Users\Randy\Documents\MarmaladeGames\OneTap\data-ram as RAM drive
-17/06/14 18:44:56.502: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.config.txt', 'r') succeeded, id=1000 p=0x01379cc4
-17/06/14 18:44:56.503: [0xfa0] FILE: s3eFileClose h=0x01379cc4
-17/06/14 18:44:56.504: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.3/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1001 p=0x01379de0
-17/06/14 18:44:56.527: [0xfa0] FILE: s3eFileClose h=0x01379de0
-17/06/14 18:44:56.529: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.3/s3e/s3e.config.txt', 'r') succeeded, id=1002 p=0x01379efc
-17/06/14 18:44:56.552: [0xfa0] FILE: s3eFileClose h=0x01379efc
-17/06/14 18:44:56.553: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.3/s3e\s3e.config.txt', 'r') succeeded, id=1003 p=0x0137a018
-17/06/14 18:44:56.564: [0xfa0] FILE: s3eFileClose h=0x0137a018
-17/06/14 18:44:56.580: [0xfa0] FILE: s3eFileOpen('raw://c:\marmalade\7.3\s3e/s3e.icf', 'rb') succeeded, id=1004 p=0x0137a134
-17/06/14 18:44:56.581: [0xfa0] LOADER: Loading config from: c:\marmalade\7.3\s3e/s3e.icf
-17/06/14 18:44:56.583: [0xfa0] FILE: s3eFileClose h=0x0137a134
-17/06/14 18:44:56.584: [0xfa0] LOADER: Loading app-icf from command line specified location c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
-17/06/14 18:44:56.586: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf', 'rb') succeeded, id=1005 p=0x0137a250
-17/06/14 18:44:56.587: [0xfa0] LOADER: Loading config from: raw://c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
-17/06/14 18:44:56.588: [0xfa0] FILE: s3eFileClose h=0x0137a250
-17/06/14 18:44:56.590: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via"]
-17/06/14 18:44:56.590: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:44:56.591: [0xfa0] LOADER: parsing via file: c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:44:56.592: [0xfa0] FILE: s3eFileOpen('c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via', 'r') succeeded, id=1006 p=0x0137a36c
-17/06/14 18:44:56.593: [0xfa0] LOADER: reading 556 bytes from via files
-17/06/14 18:44:56.594: [0xfa0] FILE: s3eFileClose h=0x0137a36c
-17/06/14 18:44:56.594: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via" --dll="c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\O
-17/06/14 18:44:56.595: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:44:56.596: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
-17/06/14 18:44:56.596: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Randy\Documents\MarmaladeGames\OneTap\data
-17/06/14 18:44:56.597: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-17/06/14 18:44:56.598: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
-17/06/14 18:44:56.599: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.config.txt
-17/06/14 18:44:56.599: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/7.3/modules/iwutil/docs/iwutil.config.txt
-17/06/14 18:44:56.600: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/7.3/s3e/s3e.config.txt
-17/06/14 18:44:56.601: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/7.3/s3e\s3e.config.txt
-17/06/14 18:44:56.602: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/7.3/s3e
-17/06/14 18:44:56.602: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
-17/06/14 18:44:56.604: [0xfa0] FILE: s3eFileOpen('raw://C:\Users\Randy\AppData\Local\Temp\\_marm_temp_test_', 'w') succeeded, id=1007 p=0x0137a488
-17/06/14 18:44:56.605: [0xfa0] FILE: s3eFileClose h=0x0137a488
-17/06/14 18:44:56.608: [0xfa0] FILE: new filesystem: drive=4 type=0 ro=0 name=tmp://
-17/06/14 18:44:56.609: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data'
-17/06/14 18:44:56.610: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data-ram'
-17/06/14 18:44:56.611: [0xfa0] FILE: fs[03]: system[raw://] ''
-17/06/14 18:44:56.613: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\Randy\AppData\Local\Temp\'
-17/06/14 18:44:56.614: [0xfa0] FILE: listed 4 active filesystems
-17/06/14 18:44:56.661: [0xfa0] SURFACE: scaling=1
-17/06/14 18:44:56.910: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
-17/06/14 18:44:56.911: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB888 native=RGB565)
-17/06/14 18:44:56.969: [0xfa0] EXT: Registering user-supplied extensions
-17/06/14 18:44:56.971: [0xfa0] FIBRE: stack switch : enabled
-17/06/14 18:44:56.973: [0xfa0] FIBRE: fast switch  : disabled
-17/06/14 18:44:56.974: [0xfa0] FIBRE: global lock  : enabled
-17/06/14 18:44:56.975: [0xfa0] FIBRE: fast lock    : disabled
-17/06/14 18:44:56.977: [0xfa0] FIBRE: thunks       : enabled
-17/06/14 18:44:56.979: [0xfa0] LOADER: Calling s3eDeviceInit()
-17/06/14 18:44:56.980: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe5dc9eb7]
-17/06/14 18:44:56.982: [0xfa0] DEVICE: Initialising CALLBACKS
-17/06/14 18:44:56.983: [0xfa0] DEVICE: Initialising CRYPTO
-17/06/14 18:44:56.984: [0xfa0] DEVICE: Initialising ERROR
-17/06/14 18:44:56.985: [0xfa0] DEVICE: Initialising SOCKET
-17/06/14 18:44:56.990: [0xfa0] DEVICE: Initialising STORAGE
-17/06/14 18:44:56.991: [0xfa0] DEVICE: Initialising VIBRA
-17/06/14 18:44:56.992: [0xfa0] DEVICE: Initialising KEYBOARD
-17/06/14 18:44:56.995: [0xfa0] DEVICE: Initialising POINTER
-17/06/14 18:44:56.996: [0xfa0] DEVICE: Initialising ACCELEROMETER
-17/06/14 18:44:56.999: [0xfa0] ACCELEROMETER: damping=0 scaling=0
-17/06/14 18:44:57.000: [0xfa0] DEVICE: Initialising SOUND
-17/06/14 18:44:57.246: [0xfa0] SOUND: stereo sound enabled
-17/06/14 18:44:57.247: [0xfa0] SOUND: s3eSoundStop: started=0
-17/06/14 18:44:57.249: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
-17/06/14 18:44:57.251: [0xfa0] DEVICE: Initialising AUDIO
-17/06/14 18:44:57.253: [0xfa0] AUDIO: Number of channels = 16
-17/06/14 18:44:57.254: [0xfa0] DEVICE: Initialising VIDEO
-17/06/14 18:44:57.255: [0xfa0] DEVICE: Initialising LICENSE
-17/06/14 18:44:57.257: [0xfa0] DEVICE: Initialising GL
-17/06/14 18:44:57.262: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
-17/06/14 18:44:57.281: [0xfa0] SPLASH: displaying debug splash-screen
-17/06/14 18:44:57.438: [0xfa0] LICENSE: LicenseType: licText=
+18/06/14 14:31:17.285: [0x1e04] DEVICE: Initialising FIBRE
+18/06/14 14:31:17.286: [0x1e04] DEVICE: Initialising THREAD
+18/06/14 14:31:17.288: [0x1e04] THREAD: s3eThreadCreateMain
+18/06/14 14:31:17.289: [0xfa0] DEVICE: Initialising SURFACE
+18/06/14 14:31:17.291: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
+18/06/14 14:31:17.293: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+18/06/14 14:31:17.295: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+18/06/14 14:31:17.296: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
+18/06/14 14:31:17.297: [0xfa0] DEVICE: Initialising EXT
+18/06/14 14:31:17.299: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
+18/06/14 14:31:17.300: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
+18/06/14 14:31:17.302: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
+18/06/14 14:31:17.303: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
+18/06/14 14:31:17.305: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
+18/06/14 14:31:17.306: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
+18/06/14 14:31:17.310: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
+18/06/14 14:31:17.312: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
+18/06/14 14:31:17.314: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
+18/06/14 14:31:17.316: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
+18/06/14 14:31:17.317: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
+18/06/14 14:31:17.319: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
+18/06/14 14:31:17.320: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
+18/06/14 14:31:17.322: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
+18/06/14 14:31:17.323: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
+18/06/14 14:31:17.325: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
+18/06/14 14:31:17.327: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
+18/06/14 14:31:17.328: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
+18/06/14 14:31:17.330: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
+18/06/14 14:31:17.331: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
+18/06/14 14:31:17.333: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
+18/06/14 14:31:17.334: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
+18/06/14 14:31:17.336: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
+18/06/14 14:31:17.338: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
+18/06/14 14:31:17.340: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
+18/06/14 14:31:17.342: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
+18/06/14 14:31:17.344: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
+18/06/14 14:31:17.345: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
+18/06/14 14:31:17.347: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
+18/06/14 14:31:17.348: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
+18/06/14 14:31:17.351: [0xfa0] EXT: registering extension: Location [0x7604d91e]
+18/06/14 14:31:17.353: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
+18/06/14 14:31:17.355: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
+18/06/14 14:31:17.357: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
+18/06/14 14:31:17.363: [0xfa0] DEVICE: Initialising CONFIG
+18/06/14 14:31:17.365: [0xfa0] DEVICE: Initialising TIMER
+18/06/14 14:31:17.369: [0xfa0] DEVICE: Initialising COMPRESSION
+18/06/14 14:31:17.371: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
+18/06/14 14:31:17.374: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
+18/06/14 14:31:17.384: [0xfa0] EXT: initializing extension: s3eWindow
+18/06/14 14:31:17.385: [0xfa0] EXT: initializing extension: s3eWindow 0x012fc620
+18/06/14 14:31:17.387: [0xfa0] DEVICE: SetupPaths: NULL
+18/06/14 14:31:17.390: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via"]
+18/06/14 14:31:17.394: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
+18/06/14 14:31:17.399: [0xfa0] LOADER: parsing via file: c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
+18/06/14 14:31:17.401: [0xfa0] FILE: s3eFileOpen('c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via', 'r') succeeded, id=20678128 p=0x013b85f0
+18/06/14 14:31:17.402: [0xfa0] LOADER: reading 556 bytes from via files
+18/06/14 14:31:17.404: [0xfa0] FILE: s3eFileClose h=0x013b85f0
+18/06/14 14:31:17.406: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via" --dll="c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\O
+18/06/14 14:31:17.408: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
+18/06/14 14:31:17.410: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
+18/06/14 14:31:17.411: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Randy\Documents\MarmaladeGames\OneTap\data
+18/06/14 14:31:17.413: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+18/06/14 14:31:17.415: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
+18/06/14 14:31:17.416: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.config.txt
+18/06/14 14:31:17.418: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/7.3/modules/iwutil/docs/iwutil.config.txt
+18/06/14 14:31:17.420: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/7.3/s3e/s3e.config.txt
+18/06/14 14:31:17.421: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/7.3/s3e\s3e.config.txt
+18/06/14 14:31:17.423: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/7.3/s3e
+18/06/14 14:31:17.426: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+18/06/14 14:31:17.428: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data'
+18/06/14 14:31:17.431: [0xfa0] FILE: fs[03]: system[raw://] ''
+18/06/14 14:31:17.432: [0xfa0] FILE: listed 2 active filesystems
+18/06/14 14:31:17.434: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+18/06/14 14:31:17.435: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data'
+18/06/14 14:31:17.437: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data-ram'
+18/06/14 14:31:17.439: [0xfa0] FILE: fs[03]: system[raw://] ''
+18/06/14 14:31:17.440: [0xfa0] FILE: listed 3 active filesystems
+18/06/14 14:31:17.527: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+18/06/14 14:31:17.531: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+18/06/14 14:31:17.533: [0xfa0] LOADER: Using data directory c:\Users\Randy\Documents\MarmaladeGames\OneTap\data as ROM drive
+18/06/14 14:31:17.534: [0xfa0] LOADER: Using directory c:\Users\Randy\Documents\MarmaladeGames\OneTap\data-ram as RAM drive
+18/06/14 14:31:17.536: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.config.txt', 'r') succeeded, id=1000 p=0x013b9cc4
+18/06/14 14:31:17.538: [0xfa0] FILE: s3eFileClose h=0x013b9cc4
+18/06/14 14:31:17.540: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.3/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1001 p=0x013b9de0
+18/06/14 14:31:17.562: [0xfa0] FILE: s3eFileClose h=0x013b9de0
+18/06/14 14:31:17.565: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.3/s3e/s3e.config.txt', 'r') succeeded, id=1002 p=0x013b9efc
+18/06/14 14:31:17.595: [0xfa0] FILE: s3eFileClose h=0x013b9efc
+18/06/14 14:31:17.597: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.3/s3e\s3e.config.txt', 'r') succeeded, id=1003 p=0x013ba018
+18/06/14 14:31:17.619: [0xfa0] FILE: s3eFileClose h=0x013ba018
+18/06/14 14:31:17.638: [0xfa0] FILE: s3eFileOpen('raw://c:\marmalade\7.3\s3e/s3e.icf', 'rb') succeeded, id=1004 p=0x013ba134
+18/06/14 14:31:17.639: [0xfa0] LOADER: Loading config from: c:\marmalade\7.3\s3e/s3e.icf
+18/06/14 14:31:17.644: [0xfa0] FILE: s3eFileClose h=0x013ba134
+18/06/14 14:31:17.652: [0xfa0] LOADER: Loading app-icf from command line specified location c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
+18/06/14 14:31:17.664: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf', 'rb') succeeded, id=1005 p=0x013ba250
+18/06/14 14:31:17.666: [0xfa0] LOADER: Loading config from: raw://c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
+18/06/14 14:31:17.672: [0xfa0] FILE: s3eFileClose h=0x013ba250
+18/06/14 14:31:17.677: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via"]
+18/06/14 14:31:17.678: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
+18/06/14 14:31:17.681: [0xfa0] LOADER: parsing via file: c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
+18/06/14 14:31:17.682: [0xfa0] FILE: s3eFileOpen('c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via', 'r') succeeded, id=1006 p=0x013ba36c
+18/06/14 14:31:17.683: [0xfa0] LOADER: reading 556 bytes from via files
+18/06/14 14:31:17.684: [0xfa0] FILE: s3eFileClose h=0x013ba36c
+18/06/14 14:31:17.685: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via" --dll="c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\O
+18/06/14 14:31:17.686: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
+18/06/14 14:31:17.687: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
+18/06/14 14:31:17.688: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Randy\Documents\MarmaladeGames\OneTap\data
+18/06/14 14:31:17.691: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+18/06/14 14:31:17.692: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
+18/06/14 14:31:17.693: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.config.txt
+18/06/14 14:31:17.694: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/7.3/modules/iwutil/docs/iwutil.config.txt
+18/06/14 14:31:17.696: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/7.3/s3e/s3e.config.txt
+18/06/14 14:31:17.701: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/7.3/s3e\s3e.config.txt
+18/06/14 14:31:17.702: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/7.3/s3e
+18/06/14 14:31:17.704: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
+18/06/14 14:31:17.711: [0xfa0] FILE: s3eFileOpen('raw://C:\Users\Randy\AppData\Local\Temp\\_marm_temp_test_', 'w') succeeded, id=1007 p=0x013ba488
+18/06/14 14:31:17.714: [0xfa0] FILE: s3eFileClose h=0x013ba488
+18/06/14 14:31:17.717: [0xfa0] FILE: new filesystem: drive=4 type=0 ro=0 name=tmp://
+18/06/14 14:31:17.720: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data'
+18/06/14 14:31:17.722: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data-ram'
+18/06/14 14:31:17.725: [0xfa0] FILE: fs[03]: system[raw://] ''
+18/06/14 14:31:17.728: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\Randy\AppData\Local\Temp\'
+18/06/14 14:31:17.731: [0xfa0] FILE: listed 4 active filesystems
+18/06/14 14:31:17.792: [0xfa0] SURFACE: scaling=1
+18/06/14 14:31:17.954: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
+18/06/14 14:31:17.955: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB888 native=RGB565)
+18/06/14 14:31:17.963: [0xfa0] EXT: Registering user-supplied extensions
+18/06/14 14:31:17.966: [0xfa0] FIBRE: stack switch : enabled
+18/06/14 14:31:17.967: [0xfa0] FIBRE: fast switch  : disabled
+18/06/14 14:31:17.969: [0xfa0] FIBRE: global lock  : enabled
+18/06/14 14:31:17.971: [0xfa0] FIBRE: fast lock    : disabled
+18/06/14 14:31:17.973: [0xfa0] FIBRE: thunks       : enabled
+18/06/14 14:31:17.974: [0xfa0] LOADER: Calling s3eDeviceInit()
+18/06/14 14:31:17.976: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe5dc9eb7]
+18/06/14 14:31:17.978: [0xfa0] DEVICE: Initialising CALLBACKS
+18/06/14 14:31:17.979: [0xfa0] DEVICE: Initialising CRYPTO
+18/06/14 14:31:17.981: [0xfa0] DEVICE: Initialising ERROR
+18/06/14 14:31:17.982: [0xfa0] DEVICE: Initialising SOCKET
+18/06/14 14:31:17.986: [0xfa0] DEVICE: Initialising STORAGE
+18/06/14 14:31:17.987: [0xfa0] DEVICE: Initialising VIBRA
+18/06/14 14:31:17.988: [0xfa0] DEVICE: Initialising KEYBOARD
+18/06/14 14:31:17.990: [0xfa0] DEVICE: Initialising POINTER
+18/06/14 14:31:17.991: [0xfa0] DEVICE: Initialising ACCELEROMETER
+18/06/14 14:31:17.993: [0xfa0] ACCELEROMETER: damping=0 scaling=0
+18/06/14 14:31:17.994: [0xfa0] DEVICE: Initialising SOUND
+18/06/14 14:31:18.224: [0xfa0] SOUND: stereo sound enabled
+18/06/14 14:31:18.226: [0xfa0] SOUND: s3eSoundStop: started=0
+18/06/14 14:31:18.228: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
+18/06/14 14:31:18.229: [0xfa0] DEVICE: Initialising AUDIO
+18/06/14 14:31:18.231: [0xfa0] AUDIO: Number of channels = 16
+18/06/14 14:31:18.233: [0xfa0] DEVICE: Initialising VIDEO
+18/06/14 14:31:18.236: [0xfa0] DEVICE: Initialising LICENSE
+18/06/14 14:31:18.238: [0xfa0] DEVICE: Initialising GL
+18/06/14 14:31:18.241: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
+18/06/14 14:31:18.272: [0xfa0] SPLASH: displaying debug splash-screen
+18/06/14 14:31:18.474: [0xfa0] LICENSE: LicenseType: licText=
 LICENSE marmalade marmaladesdk 1.0 18-jun-2015 uncounted
   hostid=rehost=bf73217995c22a44cc7bbe7e4eb832a8e68c4a02
   options={Type=Free;LicPlat=0x7B8;Splash;Ftrs=Juice;} _ck=f1cbb7d992
   sig="6
-17/06/14 18:44:57.440: [0xfa0] LICENSE: LicenseType: licenseType size=4
-17/06/14 18:44:57.441: [0xfa0] LICENSE: LicenseType: ret true : output=Free
-17/06/14 18:44:57.567: [0xfa0] LICENSE: SplashScreenRequired: Splash set in licenseText
-17/06/14 18:44:57.569: [0xfa0] SPLASH: No splash screen specified
-17/06/14 18:44:57.622: [0xfa0] LOADER: s3eExecInit Done
-17/06/14 18:44:57.630: [0xfa0] LOADER: found initial S3E file: raw://c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
-17/06/14 18:44:57.632: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86 [root=NULL 0x00000000 0x00000000]
-17/06/14 18:44:57.633: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
-17/06/14 18:44:57.635: [0xfa0] LOADER: s3eExecDoExecuteLoop
-17/06/14 18:44:57.756: [0xfa0] LICENSE: LicenseType: licText=
+18/06/14 14:31:18.477: [0xfa0] LICENSE: LicenseType: licenseType size=4
+18/06/14 14:31:18.480: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+18/06/14 14:31:18.662: [0xfa0] LICENSE: SplashScreenRequired: Splash set in licenseText
+18/06/14 14:31:18.664: [0xfa0] SPLASH: No splash screen specified
+18/06/14 14:31:18.697: [0xfa0] LOADER: s3eExecInit Done
+18/06/14 14:31:18.704: [0xfa0] LOADER: found initial S3E file: raw://c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
+18/06/14 14:31:18.706: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86 [root=NULL 0x00000000 0x00000000]
+18/06/14 14:31:18.707: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
+18/06/14 14:31:18.709: [0xfa0] LOADER: s3eExecDoExecuteLoop
+18/06/14 14:31:18.879: [0xfa0] LICENSE: LicenseType: licText=
 LICENSE marmalade marmaladesdk 1.0 18-jun-2015 uncounted
   hostid=rehost=bf73217995c22a44cc7bbe7e4eb832a8e68c4a02
   options={Type=Free;LicPlat=0x7B8;Splash;Ftrs=Juice;} _ck=f1cbb7d992
   sig="6
-17/06/14 18:44:57.760: [0xfa0] LICENSE: LicenseType: licenseType size=4
-17/06/14 18:44:57.762: [0xfa0] LICENSE: LicenseType: ret true : output=Free
-17/06/14 18:44:57.768: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0141ea7c id=3000
-17/06/14 18:44:57.770: [0xfa0] SOCKET: s3eInetLookup: 'www.google-analytics.com'
-17/06/14 18:44:57.800: [0xfa0] SOCKET: s3eInetLookup (synchronous): done DNS: '74.125.224.68:0'
-17/06/14 18:44:57.802: [0xfa0] SOCKET: s3eSocketConnect: 0x0141ea7c -> 74.125.224.68:80
-17/06/14 18:44:57.805: [0xfa0] SOCKET: TryConnect error: 10036
-17/06/14 18:44:57.806: [0xfa0] SOCKET: Connect: FAILED (0: )
-17/06/14 18:44:57.934: [0xfa0] LOADER: AppVersion: 4 37
-17/06/14 18:44:57.936: [0xfa0] LOADER: S3E Version    : 4.37.0
-17/06/14 18:44:57.937: [0xfa0] LOADER: Arch           : X86
-17/06/14 18:44:57.939: [0xfa0] LOADER: VFP            : 1
-17/06/14 18:44:57.940: [0xfa0] LOADER: App S3E Version: 4.37.0
-17/06/14 18:44:57.946: [0xfa0] LOADER: App arch       : X86
-17/06/14 18:44:57.949: [0xfa0] LOADER: App VFP        : 0
-17/06/14 18:44:57.950: [0xfa0] LOADER: new s3eExecHandle = 0x002a4f20
-17/06/14 18:44:59.429: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1008 p=0x0137a5a4
-17/06/14 18:44:59.431: [0xfa0] VIDEO: s3eVideoPlay raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg
-17/06/14 18:44:59.433: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1009 p=0x0137a6c0
-17/06/14 18:44:59.433: [0xfa0] VIDEO: data in in JPG (EXIF) format
-17/06/14 18:44:59.435: [0xfa0] FILE: s3eFileClose h=0x0137a6c0
-17/06/14 18:44:59.436: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
-17/06/14 18:44:59.440: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg
-17/06/14 18:44:59.442: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1010 p=0x0137a7dc
-17/06/14 18:44:59.443: [0xfa0] JPEG: loading jpeg file: raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg [30325]
-17/06/14 18:44:59.444: [0xfa0] JPEG: jpeg head was read: [320x320]
-17/06/14 18:44:59.453: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
-17/06/14 18:44:59.454: [0xfa0] JPEG: from [320x320] to [320x320]
-17/06/14 18:44:59.478: [0xfa0] FILE: s3eFileClose h=0x0137a7dc
-17/06/14 18:44:59.480: [0xfa0] VIDEO: s3eVideoPlay done: 0
-17/06/14 18:45:03.072: [0xfa0] DEVICE: s3eOSExecExecute [0] 'http://www.signaltothestars.com'
-17/06/14 18:45:03.395: [0xfa0] DEVICE: s3eOSExecExecute -> 0
-17/06/14 18:45:04.037: [0xfa0] SOCKET: TryConnect error: 10056
-17/06/14 18:45:04.039: [0xfa0] SOCKET: NotifyConnect: 3000 0x0141ea7c
-17/06/14 18:45:04.041: [0xfa0] FILE: s3eFileOpen('ident.free', 'r') succeeded, id=1011 p=0x0137a8f8
-17/06/14 18:45:04.042: [0xfa0] FILE: s3eFileOpen failed: ('ram://uident.free', 'r') (root = )
-17/06/14 18:45:04.044: [0xfa0] FILE: s3eFileOpen('ram://uident.free', 'w') succeeded, id=1013 p=0x0137ab30
-17/06/14 18:45:04.045: [0xfa0] FILE: s3eFileClose h=0x0137ab30
-17/06/14 18:45:04.053: [0xfa0] SOCKET: s3eSocketClose: 0x0141ea7c open=1
-17/06/14 18:45:05.286: [0xfa0] LOADER: Screen size: 320 480
-17/06/14 18:45:05.414: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1014 p=0x0137ac4c
-17/06/14 18:45:05.416: [0xfa0] FILE: s3eFileClose h=0x0137ac4c
-17/06/14 18:45:05.420: [0xfa0] VIDEO: s3eVideoPlay raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg
-17/06/14 18:45:05.423: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1015 p=0x0137ad68
-17/06/14 18:45:05.423: [0xfa0] VIDEO: data in in JPG (EXIF) format
-17/06/14 18:45:05.425: [0xfa0] FILE: s3eFileClose h=0x0137ad68
-17/06/14 18:45:05.426: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
-17/06/14 18:45:05.427: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg
-17/06/14 18:45:05.428: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1016 p=0x0137ae84
-17/06/14 18:45:05.429: [0xfa0] JPEG: loading jpeg file: raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg [37220]
-17/06/14 18:45:05.431: [0xfa0] JPEG: jpeg head was read: [320x320]
-17/06/14 18:45:05.438: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
-17/06/14 18:45:05.440: [0xfa0] JPEG: from [320x320] to [320x320]
-17/06/14 18:45:05.459: [0xfa0] FILE: s3eFileClose h=0x0137ae84
-17/06/14 18:45:05.460: [0xfa0] VIDEO: s3eVideoPlay done: 0
-17/06/14 18:45:07.291: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-17/06/14 18:45:07.295: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-17/06/14 18:45:07.300: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-17/06/14 18:45:07.310: [0xfa0] LOADER: Calling s3eDeviceInit(S3E_DEVICE_INIT_MEMORY)
-17/06/14 18:45:07.313: [0xfa0] DEVICE: DeviceInit: services=0x00020000 [0x00020000]
-17/06/14 18:45:07.314: [0xfa0] DEVICE: Initialising MEMORY
-17/06/14 18:45:07.315: [0xfa0] MEMORY: Loader heap size=30000
-17/06/14 18:45:07.317: [0xfa0] MEMORY: using default size (3145728) for heap0 (set MemSize in your game.icf to override this)
-17/06/14 18:45:07.322: [0xfa0] MEMORY: Initialised heap 0 [0x075e1c64-0x078e1c64] size=3145728
-17/06/14 18:45:07.325: [0xfa0] MEMORY: Initialised heap 7 [0x011d1464-0x011ddc64] size=51200
-17/06/14 18:45:07.390: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x00193fe8 0x00194228 0x00193d00
-17/06/14 18:45:07.396: [0xfa0] DEVICE: DeviceInit done: services=0x00020000
-17/06/14 18:45:07.400: [0xfa0] LOADER: IwS3EGetEntryPoint -> 0x505a44a0
-17/06/14 18:45:07.402: [0xfa0] LOADER: Executing S3E 0x002a4f20 [c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86] entry=0x505a44a0
-17/06/14 18:45:07.405: [0xfa0] EXT: s3eExtGetHash: 0xcc0b4a28 [0x5061af88 size=76]
-17/06/14 18:45:07.414: [0xfa0] EXT: initializing extension: s3eThread
-17/06/14 18:45:07.415: [0xfa0] EXT: initializing extension: s3eThread 0x01298710
-17/06/14 18:45:07.417: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x5059aca0 0x5059acc0 0x5059acb0
-17/06/14 18:45:10.094: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x25, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:10.186: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:10.192: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x25, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:10.266: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:10.472: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:10.595: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:10.597: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x25, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:10.713: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x25, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:10.714: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:10.819: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:13.026: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0xd, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:13.087: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0xd, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:13.484: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:13.649: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:13.728: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x20, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:13.804: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x20, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:13.956: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x46, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:14.047: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x46, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:14.152: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:14.168: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:14.215: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:14.252: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:14.352: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:14.368: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x41, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:14.418: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:14.448: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x41, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:14.564: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:14.655: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:14.730: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:14.803: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:14.880: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:14.911: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:15.012: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x57, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:15.043: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x57, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:15.084: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x27, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:15.175: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x27, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:15.191: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x57, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:15.238: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x57, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:15.341: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:15.417: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:15.440: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x41, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:15.471: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x41, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:15.582: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:15.612: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x57, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:15.644: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:15.661: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x57, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:15.800: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:15.801: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x25, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:15.816: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:15.849: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:15.850: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x25, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:15.851: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:16.001: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:16.064: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:16.066: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:16.096: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:16.211: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:16.258: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:16.405: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:16.451: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:16.452: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x46, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:16.500: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x46, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:16.611: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:16.612: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:16.628: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x28, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:16.659: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:16.794: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:16.811: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x26, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:16.835: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:16.867: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:17.029: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x57, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:17.075: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x57, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:17.190: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x41, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:17.236: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x41, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:17.369: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x57, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:17.415: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x57, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:17.562: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 1, sysKey = 0, thread = 3292
-17/06/14 18:45:17.579: [0xcdc] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 0, sysKey = 0, thread = 3292
-17/06/14 18:45:21.265: [0xfa0] DEVICE: s3eExecPushNext: NULL [root=NULL 0x00000000 0x00000000]
-17/06/14 18:45:21.266: [0xfa0] DEVICE: s3eExecPushNext: using current executable: c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
-17/06/14 18:45:21.267: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
-17/06/14 18:45:21.267: [0xfa0] DEVICE: s3eDeviceExit: 0
-17/06/14 18:45:21.268: [0xfa0] THREAD: Exit: retval=0x00000000 all=1
-17/06/14 18:45:21.268: [0xfa0] THREAD: s3eThreadCancelAll
-17/06/14 18:45:21.269: [0xfa0] THREAD: done s3eThreadCancelAll
-17/06/14 18:45:21.269: [0xfa0] THREAD: s3eThreadExit called from main app thread
-17/06/14 18:45:21.270: [0xfa0] FIBRE: s3eFibreExit() 0x00fd6808
-17/06/14 18:45:21.270: [0xfa0] FIBRE: s3eFibreExit() to 0x00fd67e4 from 0x00fd6808
-17/06/14 18:45:21.271: [0xfa0] THREAD: s3eThreadCancelAll
-17/06/14 18:45:21.272: [0xfa0] THREAD: done s3eThreadCancelAll
-17/06/14 18:45:21.272: [0xfa0] THREAD: all threads now dead (current=0x00000fa0)
-17/06/14 18:45:21.273: [0xfa0] LOADER: Application has exited, starting cleanup
-17/06/14 18:45:21.274: [0xfa0] LOADER: Done execute S3E 0x002a4f20 [rtn=0]
-17/06/14 18:45:21.274: [0xfa0] SOUND: s3eSoundStop: started=0
-17/06/14 18:45:21.275: [0xfa0] LOADER: Unloading S3E 0x002a4f20 [c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86]
-17/06/14 18:45:21.275: [0xfa0] LOADER: deleting DLL: c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
-17/06/14 18:45:21.276: [0xfa0] DEVICE: Terminating LICENSE
-17/06/14 18:45:21.276: [0xfa0] DEVICE: Terminating VIDEO
-17/06/14 18:45:21.277: [0xfa0] DEVICE: Terminating AUDIO
-17/06/14 18:45:21.277: [0xfa0] DEVICE: Terminating SOUND
-17/06/14 18:45:21.324: [0xfa0] DEVICE: Terminating POINTER
-17/06/14 18:45:21.325: [0xfa0] DEVICE: Terminating ACCELEROMETER
-17/06/14 18:45:21.326: [0xfa0] DEVICE: Terminating GL
-17/06/14 18:45:21.326: [0xfa0] DEVICE: Terminating VIBRA
-17/06/14 18:45:21.327: [0xfa0] DEVICE: Terminating TIMER
-17/06/14 18:45:21.328: [0xfa0] DEVICE: Terminating STORAGE
-17/06/14 18:45:21.328: [0xfa0] DEVICE: Terminating SOCKET
-17/06/14 18:45:21.330: [0xfa0] DEVICE: Terminating CONFIG
-17/06/14 18:45:21.331: [0xfa0] DEVICE: Terminating ERROR
-17/06/14 18:45:21.331: [0xfa0] DEVICE: Terminating MEMORY
-17/06/14 18:45:21.332: [0xfa0] DEVICE: Terminating CRYPTO
-17/06/14 18:45:21.333: [0xfa0] DEVICE: Terminating EXT
-17/06/14 18:45:21.333: [0xfa0] EXT: terminating extension: s3eWindow
-17/06/14 18:45:21.334: [0xfa0] EXT: terminating extension: s3eThread
-17/06/14 18:45:21.334: [0xfa0] DEVICE: Terminating SURFACE
-17/06/14 18:45:21.347: [0xfa0] DEVICE: Terminating KEYBOARD
-17/06/14 18:45:21.349: [0xfa0] DEVICE: Terminating DEBUG
--- END TRACE --
--- START TRACE TO FILE --
-tracing to: ''
-MarmaladeSDK v7.3.0 [385148] (S3E Loader v4.37.0)
-Copyright (C) 2001-2014 Marmalade Technologies Ltd.
-System Info:
- OS           : WINDOWS (3)
- OS Version   : Windows 6.1 (6.1)
- Device ID    : Windows Simulator (0x1)
- Device Class : WINDOWS_GENERIC (3000)
- Phone Number : 0044123456789
- Unique ID    : SIMULATOR_ID
- Device Name  : My Computer
- Memory       : 1048576KiB
-17/06/14 18:45:21.364: [0x11b0] DEVICE: Initialising FIBRE
-17/06/14 18:45:21.364: [0x11b0] DEVICE: Initialising THREAD
-17/06/14 18:45:21.365: [0x11b0] THREAD: s3eThreadCreateMain
-17/06/14 18:45:21.365: [0xfa0] DEVICE: Initialising SURFACE
-17/06/14 18:45:21.366: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
-17/06/14 18:45:21.366: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-17/06/14 18:45:21.367: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-17/06/14 18:45:21.368: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
-17/06/14 18:45:21.370: [0xfa0] DEVICE: Initialising EXT
-17/06/14 18:45:21.371: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
-17/06/14 18:45:21.372: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
-17/06/14 18:45:21.373: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
-17/06/14 18:45:21.374: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
-17/06/14 18:45:21.374: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
-17/06/14 18:45:21.375: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
-17/06/14 18:45:21.376: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
-17/06/14 18:45:21.376: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
-17/06/14 18:45:21.377: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
-17/06/14 18:45:21.378: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
-17/06/14 18:45:21.378: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
-17/06/14 18:45:21.379: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
-17/06/14 18:45:21.379: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
-17/06/14 18:45:21.380: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
-17/06/14 18:45:21.380: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
-17/06/14 18:45:21.381: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
-17/06/14 18:45:21.381: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
-17/06/14 18:45:21.382: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
-17/06/14 18:45:21.382: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
-17/06/14 18:45:21.383: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
-17/06/14 18:45:21.384: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
-17/06/14 18:45:21.385: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
-17/06/14 18:45:21.385: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
-17/06/14 18:45:21.386: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
-17/06/14 18:45:21.386: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
-17/06/14 18:45:21.387: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
-17/06/14 18:45:21.387: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
-17/06/14 18:45:21.388: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
-17/06/14 18:45:21.390: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
-17/06/14 18:45:21.390: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
-17/06/14 18:45:21.391: [0xfa0] EXT: registering extension: Location [0x7604d91e]
-17/06/14 18:45:21.392: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
-17/06/14 18:45:21.392: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
-17/06/14 18:45:21.393: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
-17/06/14 18:45:21.393: [0xfa0] DEVICE: Initialising CONFIG
-17/06/14 18:45:21.394: [0xfa0] DEVICE: Initialising TIMER
-17/06/14 18:45:21.394: [0xfa0] DEVICE: Initialising COMPRESSION
-17/06/14 18:45:21.395: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
-17/06/14 18:45:21.395: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
-17/06/14 18:45:21.396: [0xfa0] EXT: initializing extension: s3eWindow
-17/06/14 18:45:21.396: [0xfa0] EXT: initializing extension: s3eWindow 0x012bc620
-17/06/14 18:45:21.397: [0xfa0] DEVICE: SetupPaths: 
-17/06/14 18:45:21.397: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via"]
-17/06/14 18:45:21.398: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:45:21.399: [0xfa0] LOADER: parsing via file: c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:45:21.400: [0xfa0] FILE: s3eFileOpen('c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via', 'r') succeeded, id=20415984 p=0x013785f0
-17/06/14 18:45:21.400: [0xfa0] LOADER: reading 556 bytes from via files
-17/06/14 18:45:21.401: [0xfa0] FILE: s3eFileClose h=0x013785f0
-17/06/14 18:45:21.401: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via" --dll="c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\O
-17/06/14 18:45:21.402: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:45:21.402: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
-17/06/14 18:45:21.403: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Randy\Documents\MarmaladeGames\OneTap\data
-17/06/14 18:45:21.403: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-17/06/14 18:45:21.404: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
-17/06/14 18:45:21.404: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.config.txt
-17/06/14 18:45:21.405: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/7.3/modules/iwutil/docs/iwutil.config.txt
-17/06/14 18:45:21.406: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/7.3/s3e/s3e.config.txt
-17/06/14 18:45:21.406: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/7.3/s3e\s3e.config.txt
-17/06/14 18:45:21.407: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/7.3/s3e
-17/06/14 18:45:21.409: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-17/06/14 18:45:21.409: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data'
-17/06/14 18:45:21.410: [0xfa0] FILE: fs[03]: system[raw://] ''
-17/06/14 18:45:21.410: [0xfa0] FILE: listed 2 active filesystems
-17/06/14 18:45:21.411: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-17/06/14 18:45:21.411: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data'
-17/06/14 18:45:21.412: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data-ram'
-17/06/14 18:45:21.412: [0xfa0] FILE: fs[03]: system[raw://] ''
-17/06/14 18:45:21.413: [0xfa0] FILE: listed 3 active filesystems
-17/06/14 18:45:21.416: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-17/06/14 18:45:21.417: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-17/06/14 18:45:21.417: [0xfa0] LOADER: Using data directory c:\Users\Randy\Documents\MarmaladeGames\OneTap\data as ROM drive
-17/06/14 18:45:21.418: [0xfa0] LOADER: Using directory c:\Users\Randy\Documents\MarmaladeGames\OneTap\data-ram as RAM drive
-17/06/14 18:45:21.419: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.config.txt', 'r') succeeded, id=1000 p=0x01379cc4
-17/06/14 18:45:21.419: [0xfa0] FILE: s3eFileClose h=0x01379cc4
-17/06/14 18:45:21.420: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.3/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1001 p=0x01379de0
-17/06/14 18:45:21.420: [0xfa0] FILE: s3eFileClose h=0x01379de0
-17/06/14 18:45:21.421: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.3/s3e/s3e.config.txt', 'r') succeeded, id=1002 p=0x01379efc
-17/06/14 18:45:21.426: [0xfa0] FILE: s3eFileClose h=0x01379efc
-17/06/14 18:45:21.427: [0xfa0] FILE: s3eFileOpen('raw://c:/marmalade/7.3/s3e\s3e.config.txt', 'r') succeeded, id=1003 p=0x0137a018
-17/06/14 18:45:21.432: [0xfa0] FILE: s3eFileClose h=0x0137a018
-17/06/14 18:45:21.432: [0xfa0] LOADER: returning pre/post config: 0x00000000 0x00000000
-17/06/14 18:45:21.434: [0xfa0] FILE: s3eFileOpen('raw://c:\marmalade\7.3\s3e/s3e.icf', 'rb') succeeded, id=1004 p=0x0137a134
-17/06/14 18:45:21.434: [0xfa0] LOADER: Loading config from: c:\marmalade\7.3\s3e/s3e.icf
-17/06/14 18:45:21.435: [0xfa0] FILE: s3eFileClose h=0x0137a134
-17/06/14 18:45:21.436: [0xfa0] LOADER: Loading app-icf from command line specified location c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
-17/06/14 18:45:21.437: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf', 'rb') succeeded, id=1005 p=0x0137a250
-17/06/14 18:45:21.437: [0xfa0] LOADER: Loading config from: raw://c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
-17/06/14 18:45:21.438: [0xfa0] FILE: s3eFileClose h=0x0137a250
-17/06/14 18:45:21.439: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via"]
-17/06/14 18:45:21.439: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:45:21.439: [0xfa0] LOADER: parsing via file: c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:45:21.440: [0xfa0] FILE: s3eFileOpen('c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via', 'r') succeeded, id=1006 p=0x0137a36c
-17/06/14 18:45:21.440: [0xfa0] LOADER: reading 556 bytes from via files
-17/06/14 18:45:21.441: [0xfa0] FILE: s3eFileClose h=0x0137a36c
-17/06/14 18:45:21.441: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via" --dll="c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\O
-17/06/14 18:45:21.442: [0xfa0] LOADER: setting [commandline]  via=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\OneTap_vc12x_debug.via
-17/06/14 18:45:21.442: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
-17/06/14 18:45:21.442: [0xfa0] LOADER: setting [commandline]  data=c:\Users\Randy\Documents\MarmaladeGames\OneTap\data
-17/06/14 18:45:21.443: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-17/06/14 18:45:21.443: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.icf
-17/06/14 18:45:21.443: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/Randy/Documents/MarmaladeGames/OneTap/data/app.config.txt
-17/06/14 18:45:21.444: [0xfa0] LOADER: setting [commandline]  config-txt2=c:/marmalade/7.3/modules/iwutil/docs/iwutil.config.txt
-17/06/14 18:45:21.444: [0xfa0] LOADER: setting [commandline]  config-txt3=c:/marmalade/7.3/s3e/s3e.config.txt
-17/06/14 18:45:21.444: [0xfa0] LOADER: setting [commandline]  config-txt4=c:/marmalade/7.3/s3e\s3e.config.txt
-17/06/14 18:45:21.445: [0xfa0] LOADER: setting [commandline]  s3e-dir=c:/marmalade/7.3/s3e
-17/06/14 18:45:21.445: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
-17/06/14 18:45:21.446: [0xfa0] FILE: s3eFileOpen('raw://C:\Users\Randy\AppData\Local\Temp\\_marm_temp_test_', 'w') succeeded, id=1007 p=0x0137a488
-17/06/14 18:45:21.447: [0xfa0] FILE: s3eFileClose h=0x0137a488
-17/06/14 18:45:21.449: [0xfa0] FILE: new filesystem: drive=4 type=0 ro=0 name=tmp://
-17/06/14 18:45:21.450: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data'
-17/06/14 18:45:21.451: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\Randy\Documents\MarmaladeGames\OneTap\data-ram'
-17/06/14 18:45:21.451: [0xfa0] FILE: fs[03]: system[raw://] ''
-17/06/14 18:45:21.452: [0xfa0] FILE: fs[04]: system[tmp://] 'C:\Users\Randy\AppData\Local\Temp\'
-17/06/14 18:45:21.452: [0xfa0] FILE: listed 4 active filesystems
-17/06/14 18:45:21.453: [0xfa0] SURFACE: scaling=1
-17/06/14 18:45:21.562: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB888, pitch=0, ptr=0x00000000, blit=0
-17/06/14 18:45:21.562: [0xfa0] SURFACE: s3eSurfaceSetup: does not match native type (requested=RGB888 native=RGB565)
-17/06/14 18:45:21.567: [0xfa0] EXT: Registering user-supplied extensions
-17/06/14 18:45:21.568: [0xfa0] FIBRE: stack switch : enabled
-17/06/14 18:45:21.569: [0xfa0] FIBRE: fast switch  : disabled
-17/06/14 18:45:21.570: [0xfa0] FIBRE: global lock  : enabled
-17/06/14 18:45:21.570: [0xfa0] FIBRE: fast lock    : disabled
-17/06/14 18:45:21.571: [0xfa0] FIBRE: thunks       : enabled
-17/06/14 18:45:21.572: [0xfa0] LOADER: Calling s3eDeviceInit()
-17/06/14 18:45:21.573: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe5dc9eb7]
-17/06/14 18:45:21.575: [0xfa0] DEVICE: Initialising CALLBACKS
-17/06/14 18:45:21.577: [0xfa0] DEVICE: Initialising CRYPTO
-17/06/14 18:45:21.582: [0xfa0] DEVICE: Initialising ERROR
-17/06/14 18:45:21.585: [0xfa0] DEVICE: Initialising SOCKET
-17/06/14 18:45:21.587: [0xfa0] DEVICE: Initialising STORAGE
-17/06/14 18:45:21.591: [0xfa0] DEVICE: Initialising VIBRA
-17/06/14 18:45:21.593: [0xfa0] DEVICE: Initialising KEYBOARD
-17/06/14 18:45:21.603: [0xfa0] DEVICE: Initialising POINTER
-17/06/14 18:45:21.605: [0xfa0] DEVICE: Initialising ACCELEROMETER
-17/06/14 18:45:21.607: [0xfa0] ACCELEROMETER: damping=0 scaling=0
-17/06/14 18:45:21.608: [0xfa0] DEVICE: Initialising SOUND
-17/06/14 18:45:21.672: [0xfa0] SOUND: stereo sound enabled
-17/06/14 18:45:21.673: [0xfa0] SOUND: s3eSoundStop: started=0
-17/06/14 18:45:21.674: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
-17/06/14 18:45:21.675: [0xfa0] DEVICE: Initialising AUDIO
-17/06/14 18:45:21.676: [0xfa0] AUDIO: Number of channels = 16
-17/06/14 18:45:21.677: [0xfa0] DEVICE: Initialising VIDEO
-17/06/14 18:45:21.678: [0xfa0] DEVICE: Initialising LICENSE
-17/06/14 18:45:21.679: [0xfa0] DEVICE: Initialising GL
-17/06/14 18:45:21.679: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
-17/06/14 18:45:21.690: [0xfa0] LOADER: s3eExecInit Done
-17/06/14 18:45:21.772: [0xfa0] LICENSE: LicenseType: licText=
-LICENSE marmalade marmaladesdk 1.0 18-jun-2015 uncounted
-  hostid=rehost=bf73217995c22a44cc7bbe7e4eb832a8e68c4a02
-  options={Type=Free;LicPlat=0x7B8;Splash;Ftrs=Juice;} _ck=f1cbb7d992
-  sig="6
-17/06/14 18:45:21.773: [0xfa0] LICENSE: LicenseType: licenseType size=4
-17/06/14 18:45:21.774: [0xfa0] LICENSE: LicenseType: ret true : output=Free
-17/06/14 18:45:21.805: [0xfa0] LOADER: AppVersion: 4 37
-17/06/14 18:45:21.806: [0xfa0] LOADER: S3E Version    : 4.37.0
-17/06/14 18:45:21.807: [0xfa0] LOADER: Arch           : X86
-17/06/14 18:45:21.807: [0xfa0] LOADER: VFP            : 1
-17/06/14 18:45:21.808: [0xfa0] LOADER: App S3E Version: 4.37.0
-17/06/14 18:45:21.809: [0xfa0] LOADER: App arch       : X86
-17/06/14 18:45:21.809: [0xfa0] LOADER: App VFP        : 0
-17/06/14 18:45:21.810: [0xfa0] LOADER: new s3eExecHandle = 0x002a58a0
-17/06/14 18:45:21.820: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-17/06/14 18:45:21.820: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-17/06/14 18:45:21.821: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-17/06/14 18:45:21.822: [0xfa0] LOADER: Calling s3eDeviceInit(S3E_DEVICE_INIT_MEMORY)
-17/06/14 18:45:21.822: [0xfa0] DEVICE: DeviceInit: services=0x00020000 [0x00020000]
-17/06/14 18:45:21.823: [0xfa0] DEVICE: Initialising MEMORY
-17/06/14 18:45:21.824: [0xfa0] MEMORY: Loader heap size=30000
-17/06/14 18:45:21.825: [0xfa0] MEMORY: using default size (3145728) for heap0 (set MemSize in your game.icf to override this)
-17/06/14 18:45:21.827: [0xfa0] MEMORY: Initialised heap 0 [0x06f21c64-0x07221c64] size=3145728
-17/06/14 18:45:21.829: [0xfa0] MEMORY: Initialised heap 7 [0x010b1464-0x010bdc64] size=51200
-17/06/14 18:45:21.830: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x00193fe8 0x00194228 0x00193d00
-17/06/14 18:45:21.831: [0xfa0] DEVICE: DeviceInit done: services=0x00020000
-17/06/14 18:45:21.832: [0xfa0] LOADER: IwS3EGetEntryPoint -> 0x709f44a0
-17/06/14 18:45:21.833: [0xfa0] LOADER: Executing S3E 0x002a58a0 [c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86] entry=0x709f44a0
-17/06/14 18:45:21.836: [0xfa0] EXT: s3eExtGetHash: 0xcc0b4a28 [0x70a6af88 size=76]
-17/06/14 18:45:21.837: [0xfa0] EXT: initializing extension: s3eThread
-17/06/14 18:45:21.838: [0xfa0] EXT: initializing extension: s3eThread 0x01298710
-17/06/14 18:45:21.840: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x709eaca0 0x709eacc0 0x709eacb0
-17/06/14 18:45:27.135: [0xcdc] DEVICE: s3eDeviceNotify 2
-17/06/14 18:45:27.136: [0xfa0] THREAD: s3eThreadCancelAll
-17/06/14 18:45:27.137: [0xfa0] THREAD: done s3eThreadCancelAll
-17/06/14 18:45:27.138: [0xfa0] THREAD: all threads now dead (current=0x00000fa0)
-17/06/14 18:45:27.139: [0xfa0] LOADER: Application has exited, starting cleanup
-17/06/14 18:45:27.140: [0xfa0] LOADER: Done execute S3E 0x002a58a0 [rtn=0]
-17/06/14 18:45:27.140: [0xfa0] SOUND: s3eSoundStop: started=0
-17/06/14 18:45:27.141: [0xfa0] LOADER: Unloading S3E 0x002a58a0 [c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86]
-17/06/14 18:45:27.142: [0xfa0] LOADER: deleting DLL: c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
-17/06/14 18:45:27.143: [0xfa0] DEVICE: Terminating LICENSE
-17/06/14 18:45:27.144: [0xfa0] DEVICE: Terminating VIDEO
-17/06/14 18:45:27.145: [0xfa0] DEVICE: Terminating AUDIO
-17/06/14 18:45:27.146: [0xfa0] DEVICE: Terminating SOUND
-17/06/14 18:45:27.169: [0xfa0] DEVICE: Terminating POINTER
-17/06/14 18:45:27.170: [0xfa0] DEVICE: Terminating ACCELEROMETER
-17/06/14 18:45:27.171: [0xfa0] DEVICE: Terminating GL
-17/06/14 18:45:27.172: [0xfa0] DEVICE: Terminating VIBRA
-17/06/14 18:45:27.173: [0xfa0] DEVICE: Terminating TIMER
-17/06/14 18:45:27.174: [0xfa0] DEVICE: Terminating STORAGE
-17/06/14 18:45:27.174: [0xfa0] DEVICE: Terminating SOCKET
-17/06/14 18:45:27.176: [0xfa0] DEVICE: Terminating CONFIG
-17/06/14 18:45:27.177: [0xfa0] DEVICE: Terminating ERROR
-17/06/14 18:45:27.177: [0xfa0] DEVICE: Terminating MEMORY
-17/06/14 18:45:27.179: [0xfa0] DEVICE: Terminating CRYPTO
-17/06/14 18:45:27.180: [0xfa0] DEVICE: Terminating EXT
-17/06/14 18:45:27.181: [0xfa0] EXT: terminating extension: s3eWindow
-17/06/14 18:45:27.181: [0xfa0] EXT: terminating extension: s3eThread
-17/06/14 18:45:27.182: [0xfa0] DEVICE: Terminating SURFACE
-17/06/14 18:45:27.193: [0xfa0] DEVICE: Terminating KEYBOARD
-17/06/14 18:45:27.194: [0xfa0] DEVICE: Terminating DEBUG
+18/06/14 14:31:18.881: [0xfa0] LICENSE: LicenseType: licenseType size=4
+18/06/14 14:31:18.883: [0xfa0] LICENSE: LicenseType: ret true : output=Free
+18/06/14 14:31:18.890: [0xfa0] SOCKET: s3eSocketCreate -> p=0x0145ea7c id=3000
+18/06/14 14:31:18.891: [0xfa0] SOCKET: s3eInetLookup: 'www.google-analytics.com'
+18/06/14 14:31:18.947: [0xfa0] SOCKET: s3eInetLookup (synchronous): done DNS: '74.125.224.229:0'
+18/06/14 14:31:18.951: [0xfa0] SOCKET: s3eSocketConnect: 0x0145ea7c -> 74.125.224.229:80
+18/06/14 14:31:18.955: [0xfa0] SOCKET: TryConnect error: 10036
+18/06/14 14:31:18.957: [0xfa0] SOCKET: Connect: FAILED (0: )
+18/06/14 14:31:19.126: [0xfa0] LOADER: AppVersion: 4 37
+18/06/14 14:31:19.128: [0xfa0] LOADER: S3E Version    : 4.37.0
+18/06/14 14:31:19.129: [0xfa0] LOADER: Arch           : X86
+18/06/14 14:31:19.131: [0xfa0] LOADER: VFP            : 1
+18/06/14 14:31:19.133: [0xfa0] LOADER: App S3E Version: 4.37.0
+18/06/14 14:31:19.134: [0xfa0] LOADER: App arch       : X86
+18/06/14 14:31:19.135: [0xfa0] LOADER: App VFP        : 0
+18/06/14 14:31:19.137: [0xfa0] LOADER: new s3eExecHandle = 0x00344f20
+18/06/14 14:31:19.138: [0xfa0] SOCKET: TryConnect error: 10056
+18/06/14 14:31:19.140: [0xfa0] SOCKET: NotifyConnect: 3000 0x0145ea7c
+18/06/14 14:31:19.142: [0xfa0] FILE: s3eFileOpen('ident.free', 'r') succeeded, id=1008 p=0x013ba5a4
+18/06/14 14:31:19.145: [0xfa0] FILE: s3eFileOpen('ram://uident.free', 'r') succeeded, id=1009 p=0x013ba6c0
+18/06/14 14:31:19.147: [0xfa0] FILE: s3eFileClose h=0x013ba6c0
+18/06/14 14:31:19.150: [0xfa0] SOCKET: s3eSocketClose: 0x0145ea7c open=1
+18/06/14 14:31:20.354: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1010 p=0x013ba7dc
+18/06/14 14:31:20.357: [0xfa0] VIDEO: s3eVideoPlay raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg
+18/06/14 14:31:20.360: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1011 p=0x013ba8f8
+18/06/14 14:31:20.361: [0xfa0] VIDEO: data in in JPG (EXIF) format
+18/06/14 14:31:20.363: [0xfa0] FILE: s3eFileClose h=0x013ba8f8
+18/06/14 14:31:20.371: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+18/06/14 14:31:20.374: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg
+18/06/14 14:31:20.377: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg', 'rb') succeeded, id=1012 p=0x013baa14
+18/06/14 14:31:20.378: [0xfa0] JPEG: loading jpeg file: raw://C:\Marmalade\7.3\s3e/deploy/resources/ads/ad.320.jpg [30325]
+18/06/14 14:31:20.379: [0xfa0] JPEG: jpeg head was read: [320x320]
+18/06/14 14:31:20.393: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
+18/06/14 14:31:20.396: [0xfa0] JPEG: from [320x320] to [320x320]
+18/06/14 14:31:20.421: [0xfa0] FILE: s3eFileClose h=0x013baa14
+18/06/14 14:31:20.423: [0xfa0] VIDEO: s3eVideoPlay done: 0
+18/06/14 14:31:26.285: [0xfa0] LOADER: Screen size: 320 480
+18/06/14 14:31:26.362: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1013 p=0x013bab30
+18/06/14 14:31:26.365: [0xfa0] FILE: s3eFileClose h=0x013bab30
+18/06/14 14:31:26.372: [0xfa0] VIDEO: s3eVideoPlay raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg
+18/06/14 14:31:26.375: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1014 p=0x013bac4c
+18/06/14 14:31:26.376: [0xfa0] VIDEO: data in in JPG (EXIF) format
+18/06/14 14:31:26.378: [0xfa0] FILE: s3eFileClose h=0x013bac4c
+18/06/14 14:31:26.380: [0xfa0] VIDEO: s3eVideoPlay w=320 h=320
+18/06/14 14:31:26.381: [0xfa0] JPEG: s3eVideoPlay_jpeglib: raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg
+18/06/14 14:31:26.384: [0xfa0] FILE: s3eFileOpen('raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg', 'rb') succeeded, id=1015 p=0x013bad68
+18/06/14 14:31:26.385: [0xfa0] JPEG: loading jpeg file: raw://C:\Marmalade\7.3\s3e/deploy/resources/mwm-splash-320.jpg [37220]
+18/06/14 14:31:26.390: [0xfa0] JPEG: jpeg head was read: [320x320]
+18/06/14 14:31:26.400: [0xfa0] JPEG: CanvasSink: canvas[320x320], pos[0x80], display[(0-320)x(0-320)]
+18/06/14 14:31:26.404: [0xfa0] JPEG: from [320x320] to [320x320]
+18/06/14 14:31:26.424: [0xfa0] FILE: s3eFileClose h=0x013bad68
+18/06/14 14:31:26.426: [0xfa0] VIDEO: s3eVideoPlay done: 0
+18/06/14 14:31:28.286: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+18/06/14 14:31:28.290: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+18/06/14 14:31:28.292: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+18/06/14 14:31:28.294: [0xfa0] LOADER: Calling s3eDeviceInit(S3E_DEVICE_INIT_MEMORY)
+18/06/14 14:31:28.295: [0xfa0] DEVICE: DeviceInit: services=0x00020000 [0x00020000]
+18/06/14 14:31:28.297: [0xfa0] DEVICE: Initialising MEMORY
+18/06/14 14:31:28.299: [0xfa0] MEMORY: Loader heap size=30000
+18/06/14 14:31:28.301: [0xfa0] MEMORY: using default size (3145728) for heap0 (set MemSize in your game.icf to override this)
+18/06/14 14:31:28.304: [0xfa0] MEMORY: Initialised heap 0 [0x07941c64-0x07c41c64] size=3145728
+18/06/14 14:31:28.306: [0xfa0] MEMORY: Initialised heap 7 [0x00b91464-0x00b9dc64] size=51200
+18/06/14 14:31:28.309: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x00263fe8 0x00264228 0x00263d00
+18/06/14 14:31:28.310: [0xfa0] DEVICE: DeviceInit done: services=0x00020000
+18/06/14 14:31:28.312: [0xfa0] LOADER: IwS3EGetEntryPoint -> 0x5b1544a0
+18/06/14 14:31:28.313: [0xfa0] LOADER: Executing S3E 0x00344f20 [c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86] entry=0x5b1544a0
+18/06/14 14:31:28.316: [0xfa0] EXT: s3eExtGetHash: 0xcc0b4a28 [0x5b1caf88 size=76]
+18/06/14 14:31:28.318: [0xfa0] EXT: initializing extension: s3eThread
+18/06/14 14:31:28.319: [0xfa0] EXT: initializing extension: s3eThread 0x012d8710
+18/06/14 14:31:28.321: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x5b14aca0 0x5b14acc0 0x5b14acb0
+18/06/14 14:31:35.513: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x43, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:35.547: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x43, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:35.712: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x20, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:35.863: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x20, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:36.082: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:36.250: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x45, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:36.487: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x41, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:36.584: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x41, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:36.760: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x46, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:36.837: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x46, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:36.944: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:37.088: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:37.211: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x31, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:37.273: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x31, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:37.399: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:37.477: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:37.580: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x31, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:37.642: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x31, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:37.797: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:37.874: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:38.756: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:38.833: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:39.007: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:39.113: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:39.136: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:39.228: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:39.284: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:39.377: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:39.380: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:39.423: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x31, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:39.470: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:39.523: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x31, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:39.544: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:39.621: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:39.623: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:39.682: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:39.914: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x31, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:40.021: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x31, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:40.045: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:40.152: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:40.154: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:40.291: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:40.307: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:40.386: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:40.388: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x31, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:40.432: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:40.448: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:40.480: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x31, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:41.116: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:41.180: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:41.236: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:41.253: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:41.304: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:41.350: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:41.396: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:41.428: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x33, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:42.330: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 1, sysKey = 0, thread = 7512
+18/06/14 14:31:42.362: [0x1d58] KEYBOARD: Got key event, Virtual Key = 0x52, pressed = 0, sysKey = 0, thread = 7512
+18/06/14 14:31:43.814: [0x1d58] DEVICE: s3eDeviceNotify 2
+18/06/14 14:31:43.815: [0xfa0] THREAD: done s3eThreadCancelAll
+18/06/14 14:31:43.817: [0xfa0] THREAD: all threads now dead (current=0x00000fa0)
+18/06/14 14:31:43.819: [0xfa0] LOADER: Application has exited, starting cleanup
+18/06/14 14:31:43.821: [0xfa0] LOADER: Done execute S3E 0x00344f20 [rtn=0]
+18/06/14 14:31:43.822: [0xfa0] SOUND: s3eSoundStop: started=0
+18/06/14 14:31:43.823: [0xfa0] LOADER: Unloading S3E 0x00344f20 [c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86]
+18/06/14 14:31:43.825: [0xfa0] LOADER: deleting DLL: c:\Users\Randy\Documents\MarmaladeGames\OneTap\build_onetap_vc12x\Debug_OneTap_VC12X_x86\OneTap.s86
+18/06/14 14:31:43.826: [0xfa0] DEVICE: Terminating LICENSE
+18/06/14 14:31:43.828: [0xfa0] DEVICE: Terminating VIDEO
+18/06/14 14:31:43.829: [0xfa0] DEVICE: Terminating AUDIO
+18/06/14 14:31:43.831: [0xfa0] DEVICE: Terminating SOUND
+18/06/14 14:31:43.893: [0xfa0] DEVICE: Terminating POINTER
+18/06/14 14:31:43.895: [0xfa0] DEVICE: Terminating ACCELEROMETER
+18/06/14 14:31:43.896: [0xfa0] DEVICE: Terminating GL
+18/06/14 14:31:43.897: [0xfa0] DEVICE: Terminating VIBRA
+18/06/14 14:31:43.899: [0xfa0] DEVICE: Terminating TIMER
+18/06/14 14:31:43.900: [0xfa0] DEVICE: Terminating STORAGE
+18/06/14 14:31:43.901: [0xfa0] DEVICE: Terminating SOCKET
+18/06/14 14:31:43.904: [0xfa0] DEVICE: Terminating CONFIG
+18/06/14 14:31:43.905: [0xfa0] DEVICE: Terminating ERROR
+18/06/14 14:31:43.907: [0xfa0] DEVICE: Terminating MEMORY
+18/06/14 14:31:43.908: [0xfa0] DEVICE: Terminating CRYPTO
+18/06/14 14:31:43.910: [0xfa0] DEVICE: Terminating EXT
+18/06/14 14:31:43.911: [0xfa0] EXT: terminating extension: s3eWindow
+18/06/14 14:31:43.913: [0xfa0] EXT: terminating extension: s3eThread
+18/06/14 14:31:43.914: [0xfa0] DEVICE: Terminating SURFACE
+18/06/14 14:31:43.946: [0xfa0] DEVICE: Terminating KEYBOARD
+18/06/14 14:31:43.949: [0xfa0] DEVICE: Terminating DEBUG
 -- END TRACE --

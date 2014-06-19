@@ -1,0 +1,7 @@
+1>------ Build started: Project: OneTap_vc12x, Configuration: x86 Debug Win32 ------
+1>  MainMenu.cpp
+1>c:\users\randy\documents\marmaladegames\onetap\source\mainmenu.h(1): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+1>c:\users\randy\documents\marmaladegames\onetap\source\mainmenu.h(2): error C2008: '.' : unexpected in macro definition
+1>c:\users\randy\documents\marmaladegames\onetap\source\mainmenu.cpp(8): error C2059: syntax error : '{'
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
